@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- font awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- bootstap  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css styles -->
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>home version 1</title>
+  </head>
+  <body>
+    <!-- search bootstrap modal -->
+    <div
+      class="modal fade search-modal"
+      id="searchModal"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Recipient's username"
+                placeholder="search for"
+                aria-describedby="basic-addon2"
+              />
+              <button class="input-group-text" id="basic-addon2"
+                >Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- search bootstrap modal -->
+    <!-- top navabr -->
+    <div class="top_nav">
+      <div class="container ">
+        <div class="row">
+          <div class="col">
+            <div class="TnavSec">
+              <span class="d-block fw-bold"
+                ><i class="fas fa-user mx-2"></i> My Contanct</span
+              >
+              <span class="d-block fw-bold"
+                ><i class="fas fa-phone mx-2"></i> 01062013864</span
+              >
+            </div>
+          </div>
+          <div class="col-7">
+            <div class="TnavSec text-center">
+              <img src="img/logo-v1.png " alt="" />
+            </div>
+          </div>
+          <div class="col-1">
+            <div
+              class="TnavSec c-pointer"
+              data-bs-toggle="modal"
+              data-bs-target="#searchModal"
+            >
+              <i class="fas fa-search fa-lg my-3"></i>
+            </div>
+          </div>
+          <div class="col-1">
+            <div class="TnavSec c-pointer">
+              <i class="fa fa-shopping-bag fa-2x my-2" aria-hidden="true"></i>
+              <div class="cart-count"> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- top navabr -->
+
+    <!-- bavbar  -->
+
+    <!-- bavbar  -->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

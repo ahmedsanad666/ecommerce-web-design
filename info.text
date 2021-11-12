@@ -1,0 +1,42 @@
+technogies {
+     
+ hmtl 
+ sass / css
+ javascript 
+ jsap for animation
+
+
+
+}
+
+
+libraries {
+bootstrap
+
+fontawsome
+
+}
+
+features{
+    multi laguages 
+    
+    shoppig cart 
+    api ajax/jason
+    search without relaoding 
+
+        
+
+}
+
+
+.......................
+homepage1 {
+    bootstrap navbar
+    js slider 
+    gsap animation 
+}
+ 
+ .............
+ bootstrap{'
+ --modals
+ }
